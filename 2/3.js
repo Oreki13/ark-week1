@@ -14,6 +14,8 @@ function transpose(num){
 
   var item = num.length || 0;
   var isi = num[0] instanceof Array ? num[0].length : 0;
+  console.log(isi);
+  
 
  
   if(isi === 0 || item === 0) { return []; }

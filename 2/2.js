@@ -1,4 +1,4 @@
-var data= [9,1,5,2];
+var data= [1,5,9];
 function menambah(num){
     let total = 0;
     for(let i = 0; i < num.length; i ++){
