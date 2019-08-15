@@ -1,10 +1,28 @@
-var data= [1,5,9];
-function menambah(num){
-    let total = 0;
-    for(let i = 0; i < num.length; i ++){
-        total += data[i];
-    }
-    return total;
+function digit(str){
+    return str.toString().split('')
 }
 
-console.log(menambah(data));
+
+function menambah(num){
+    let jumlah = 0
+    for(let i = 0;i < num.length;i++){
+        jumlah += num[i]
+    }
+
+    let arr = digit(jumlah)
+    
+
+    do{
+        let hasil = 0
+        for(let j = 0;j < arr.length; j++){
+            hasil += parseInt(arr[j])
+            
+        }
+        arr = digit(hasil)
+
+        return hasil
+    }while(arr.length > 1)
+   
+
+}
+console.log(menambah([2,3,4,1]))
