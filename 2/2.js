@@ -25,4 +25,4 @@ function menambah(num){
    
 
 }
-console.log(menambah([2,3,4,1]))
+console.log(menambah([2,3,4,9,1,1]))
