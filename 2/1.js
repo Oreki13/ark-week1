@@ -1,4 +1,4 @@
-var nilai = "";
+var nilai = "makams";
 
 function vhk (kata) {
     return kata == kata.split('').reverse().join('');
